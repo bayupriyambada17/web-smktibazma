@@ -18,7 +18,7 @@ export const menu: menuType[] = [
   },
   {
     name: "Career",
-    path: "/",
+    path: "/career",
   },
   {
     name: "Information",
@@ -190,27 +190,70 @@ export const information = [
     author: 'Tim Pengembangan Diri'
   },
 ];
-export const donate = {
-  description: `
-    <p>
-      Yayasan Baituzzakah Pertamina (Bazma) adalah Lembaga Nirlaba yang berkhidmat mengangkat harkat sosial kemanusiaan dengan mendayagunakan dana zakat, infak/sedekah dan wakaf (Ziswaf) yang bersumber dari masyarakat. Dana yang terhimpun disalurkan dalam beragam bentuk program sosial, pendidikan, kesehatan, pelayanan dhuafa, penanganan bencana dan pemberdayaan ekonomi masyarakat di seluruh Indonesia.
-    </p>
-    <br/>
-    <p>
-      Salah satu program yang sedang digulirkan adalah wakaf Pembangunan SMK TI Bazma, sebuah model pengelolaan pendidikan yang diharapkan bisa mencetak kader-kader berkarakter unggul dan berdaya saing bersaing di era global.
-    </p>
-    <br/>
-    <p>
-      Salurkan Wakaf terbaik anda melalui Bank Syariah Indonesia (BSI):
-    </p>
-    <br/>
-    <p>
-      711.88.444.88<br />
-      A.N Yayasan Baituzzakah Pertamina
-    </p>
-    <br/>
-    <p>
-      Konfirmasi donasi: 0812 9077 1055
-    </p>
-  `
-};
+
+export const donate = [
+  {
+    description: "<p>Yayasan Baituzzakah Pertamina (Bazma) adalah Lembaga Nirlaba yang berkhidmat mengangkat harkat sosial kemanusiaan dengan mendayagunakan dana zakat, infak/sedekah dan wakaf (Ziswaf) yang bersumber dari masyarakat. Dana yang terhimpun disalurkan dalam beragam bentuk program sosial, pendidikan, kesehatan, pelayanan dhuafa, penanganan bencana dan pemberdayaan ekonomi masyarakat di seluruh Indonesia.</p><br/><p>Salah satu program yang sedang digulirkan adalah wakaf Pembangunan SMK TI Bazma, sebuah model pengelolaan pendidikan yang diharapkan bisa mencetak kader-kader berkarakter unggul dan berdaya saing di era global.</p><br/><p>Salurkan Wakaf terbaik anda melalui Bank Syariah Indonesia (BSI):</p><br/><p>711.88.444.88<br />A.N Yayasan Baituzzakah Pertamina</p><br/><p>Konfirmasi donasi: 0812 9077 1055</p>"
+  }
+];
+
+export const teacherCareers = [
+  {
+    id: 1,
+    title: "Guru Matematika",
+    degree: "S1",
+    category: "English",
+    description: "Mengajar siswa di berbagai tingkatan tentang konsep matematika, membantu mereka memahami dan menerapkan teori matematis.",
+    applicationDeadline: "2024-05-20" // Format YYYY-MM-DD
+  },
+  {
+    id: 2,
+    title: "Guru Bahasa Inggris",
+    degree: "S1",
+    category: "English",
+    description: "Mengajar Bahasa Inggris, termasuk tata bahasa, kosa kata, dan literatur, serta membantu siswa mengembangkan keterampilan berbicara, mendengarkan, membaca, dan menulis.",
+    applicationDeadline: "2024-07-25"
+  },
+  {
+    id: 3,
+    title: "Guru Olahraga",
+    degree: "S1",
+    category: "Biology",
+    description: "Mengajar berbagai jenis olahraga, mempromosikan kebugaran fisik, dan mengajarkan prinsip-prinsip olahraga yang baik kepada siswa.",
+    applicationDeadline: "2024-08-05"
+  },
+  {
+    id: 4,
+    title: "Guru Seni",
+    degree: "S1",
+    category: "Biology",
+    description: "Mengajar seni rupa, menggambar, melukis, dan memperkenalkan siswa pada berbagai bentuk seni kreatif.",
+    applicationDeadline: "2024-07-30"
+  },
+  {
+    id: 5,
+    title: "Guru IPA",
+    degree: "S1",
+    category: "Math",
+    description: "Mengajar konsep-konsep dasar dalam Ilmu Pengetahuan Alam, eksperimen laboratorium, dan penerapan teori ilmiah.",
+    applicationDeadline: "2024-08-01"
+  }
+];
+
+export const categoryCareer = [
+  {
+    "title": "Math"
+  },
+  {
+    "title": "Biology"
+  },
+  {
+    "title": "Web Development"
+  },
+  {
+    "title": "English"
+  },
+  {
+    "title": "Indonesia"
+  },
+]

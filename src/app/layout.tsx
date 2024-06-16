@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Announcement from "@/components/layouts/Announcement";
+import Footer from "@/components/layouts/Footer";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Announcement />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
